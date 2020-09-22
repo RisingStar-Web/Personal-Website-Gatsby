@@ -35,6 +35,7 @@ export const UserDescription = styled.div`
     flex-direction: column-reverse;
     img{
       max-width: 100%;
+      margin-top: 0px;
     }
     p{
       max-width: 100%;

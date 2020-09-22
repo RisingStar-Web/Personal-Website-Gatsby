@@ -84,7 +84,7 @@ const BoxStack = styled.div`
 const ProjectBox = ({ info }) => (
     <Box>
       <BoxIcon>
-        <img src={info.icon} alt="rashmiap project icon" />
+        <img src={info.icon} alt="maksim project icon" />
         <h3>{info.title}</h3>
       </BoxIcon>
       <BoxDescription>
