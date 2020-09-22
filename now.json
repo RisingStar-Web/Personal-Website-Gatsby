@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "name": "personal-website-reach",
+    "alias": "rashmiap.me",
+    "builds": [
+      { 
+        "src": "package.json", 
+        "use": "@now/static-build", 
+        "config": {
+          "distDir": "public"
+        }
+     }
+    ]
+  }
