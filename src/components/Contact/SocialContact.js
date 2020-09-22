@@ -48,11 +48,11 @@ const SocialContact = ({ info }) => (
     {
       info.linkTo ?
       <ContactLink href={info.path}>
-        <img src={info.icon} alt="contact link rashmiap" />
+        <img src={info.icon} alt="contact link Maksim" />
         <p>{info.title}</p>
       </ContactLink>:
       <ContactBox>
-        <img src={info.icon} alt="contact link rashmiap"/>
+        <img src={info.icon} alt="contact link Maksim"/>
         <p>{info.title}</p>
       </ContactBox>
     }

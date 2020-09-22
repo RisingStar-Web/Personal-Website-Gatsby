@@ -95,9 +95,9 @@ export default [
         icon: aware,
         description: "Aware is a mindfulness meditation mobile app which provides guided meditation sessions to users. Developed the web front end for Aware Dashboard using ReactJS. Some of the features of this dashboard include User Profile, App related stats, Coupon redemption, Gifting module and Payment gateway integration using Paddle.",
         githubPath: null,
-        demoPath: "https://my.awaremeditationapp.com/",
+        demoPath: null,
         year: "2017",
-        techUsed: "React, Material-UI, SASS"
+        techUsed: "Vue, Vuex, Vuetify"
     },
 
 ];

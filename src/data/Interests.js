@@ -14,5 +14,9 @@ export default [
     {
         id: 4,
         name: "Traveling"
+    },
+    {
+        id: 5,
+        name: "Booking"
     }
 ];

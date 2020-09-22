@@ -28,7 +28,8 @@ export const UserDescription = styled.div`
     margin-bottom: 15%;
   }
   img{
-    max-width: 50%;
+    max-width: 30%;
+    margin-top:-250px;
   }
   @media (max-width: 700px) {
     flex-direction: column-reverse;

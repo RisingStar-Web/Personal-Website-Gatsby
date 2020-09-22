@@ -7,13 +7,13 @@ export default [
         title: "Github",
         icon: github,
         linkTo: true,
-        path: "https://github.com/rashmiap"
+        path: "https://github.com/RisingStar-Web"
     },
     {
         id: 4,
         title: "LinkedIn",
         icon: linkedin,
         linkTo: true,
-        path: "https://www.linkedin.com/in/rashmiap"
+        path: "https://www.linkedin.com/in/maksim-damaskin-0914"
     },
 ];

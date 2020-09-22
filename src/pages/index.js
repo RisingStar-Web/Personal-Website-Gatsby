@@ -1,5 +1,5 @@
 import React from 'react'
-import RashSelfIcon from '../assets/images/rashmi.svg'
+import MaksimImg from '../assets/images/maksim2.png'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import { UserWrapper, UserTitle, UserDescription, DownloadButton, UserTopic } from '../styles/indexStyle.js'
@@ -8,17 +8,15 @@ import Layout from '../components/layout'
 const IndexPage = () => {
   return <Layout>
   <UserWrapper>
-    <UserTitle>Rashmi <span>AP</span></UserTitle>
+    <UserTitle>Maksim <span>Damaskin</span></UserTitle>
     <UserDescription>
       <div>
         <p>
-        Hello there, welcome to my portfolio. I am a
-        front end developer, visual artist and an animal lover
-        based out of Bangalore.
+        Hello there, welcome to my portfolio. I am a front-end web developer who is comfortable with architecting and implementing scalable and maintainable web app/services with the TDD/BDD approach..
         </p>
-        <DownloadButton href="https://github.com/rashmiap/personal-website-react/raw/master/RashmiAp-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
+        <DownloadButton href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Updated-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
-      <img src={RashSelfIcon} alt="rashmi self" />
+      <img src={MaksimImg} alt="maksim" />
     </UserDescription>
     <UserTopic>
       {

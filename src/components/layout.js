@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
 import { siteMeta } from '../data/Seo'
 import Helmet from 'react-helmet'
-import favicon from '../assets/images/rash-favicon.png'
+import favicon from '../assets/images/maksim-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
 import { Location } from '@reach/router'
 
