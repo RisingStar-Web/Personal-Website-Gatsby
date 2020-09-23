@@ -13,6 +13,10 @@ const IndexPage = () => {
       <div>
         <p>
         Hello there, welcome to my portfolio. I am a front-end web developer who is comfortable with architecting and implementing scalable and maintainable web app/services with the TDD/BDD approach..
+        <br></br><br></br>
+        Specifically, I have long been focusing on responsive web front-end development with React.js/Redux/Styled-Component/Material-UI, Angular 2+, Vue.js/Vuex/Vuetify, WordPress, Webflow, ES6/7, TypesScript, HTML5, CSS3, and etc.
+        <br></br><br></br>
+        After graduated university, I have participated in a wide range of web projects(from small to large scale), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
         </p>
         <DownloadButton href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Updated-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>

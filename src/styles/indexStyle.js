@@ -12,6 +12,7 @@ export const UserTitle = styled.h1`
   }
   @media (max-width: 700px) {
     font-size: 3em;
+    text-align: center;
   }
 `;
 export const UserDescription = styled.div`
@@ -25,7 +26,7 @@ export const UserDescription = styled.div`
     font-weight: 300;
     font-size: 26px;
     line-height: 1.3;
-    margin-bottom: 15%;
+    margin-bottom: 8%;
   }
   img{
     max-width: 30%;
@@ -46,7 +47,7 @@ export const UserDescription = styled.div`
 export const DownloadButton = styled.a`
   width: 298px;
   height: 71px;
-  background-color: rgba(188, 188, 188, 0.1);
+  background-color: rgba(68, 68, 255, 0.3);
   box-sizing: border-box;
   display: flex;
   align-items: center;
