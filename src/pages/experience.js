@@ -4,6 +4,8 @@ import work from "../data/Work";
 import grad from "../data/Edu";
 import lang from "../data/Language";
 import hobby from "../data/Interests";
+import skillsData from "../data/Skills";
+import { SkillBars } from 'react-skills';
 import {
 	ExperienceWrapper,
 	WorkWrapper,
@@ -88,6 +90,10 @@ const Experience = () => (
 							<p>{item.name}</p>
 						</div>
 					))}
+				</EdContent>
+				<h1>Skills</h1>
+				<EdContent>
+					<SkillBars skills={skillsData} />
 				</EdContent>
 			</EdWrapper>
 		</ExperienceWrapper>
