@@ -91,10 +91,10 @@ const Experience = () => (
 						</div>
 					))}
 				</EdContent>
-				<h1>Skills</h1>
+				{/* <h1>Skills</h1>
 				<EdContent>
 					<SkillBars skills={skillsData} />
-				</EdContent>
+				</EdContent> */}
 			</EdWrapper>
 		</ExperienceWrapper>
 	</Layout>
