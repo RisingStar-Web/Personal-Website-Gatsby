@@ -94,7 +94,7 @@ const Experience = () => (
 				</EdContent>
 				<h1>Skills</h1>
 				<EdContent>
-					<SkillBar hue="255" saturation="100" skills={skillsData}/>
+					<SkillBar hue="125" saturation="50" transparet skills={skillsData}/>
 				</EdContent>
 			</EdWrapper>
 		</ExperienceWrapper>
