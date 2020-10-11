@@ -1,5 +1,5 @@
 import React from 'react'
-import MaksimImg from '../assets/images/maksim2.png'
+import MaksimImg from '../assets/images/me1.png'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import { UserWrapper, UserTitle, UserDescription, DownloadButton, UserTopic } from '../styles/indexStyle.js'
@@ -16,7 +16,7 @@ const IndexPage = () => {
         <br></br><br></br>
         Specifically, I have long been focusing on responsive web front-end development with React.js/Redux/Styled-Component/Material-UI, Angular 2+, Vue.js/Vuex/Vuetify, WordPress, Webflow, ES6/7, TypesScript, HTML5, CSS3, and etc.
         <br></br><br></br>
-        After graduated university, I have participated in a wide range of web projects(from small to large scale), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
+        During my career, I have participated in a wide range of web projects(from small to large scale), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
         </p>
         <DownloadButton href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Updated-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
