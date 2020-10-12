@@ -12,9 +12,9 @@ const IndexPage = () => {
     <UserDescription>
       <div>
         <p>
-        Hello there, welcome to my portfolio. I am a front-end web developer who is comfortable with architecting and implementing scalable and maintainable web app/services with the TDD/BDD approach..
+        Hello there, welcome to my portfolio. I am a senior web developer who is comfortable with architecting and implementing scalable and maintainable web app/services with the TDD/BDD approach..
         <br></br><br></br>
-        Specifically, I have long been focusing on responsive web front-end development with React.js/Redux/Styled-Component/Material-UI, Angular 2+, Vue.js/Vuex/Vuetify, WordPress, Webflow, ES6/7, TypesScript, HTML5, CSS3, and etc.
+        Specifically, I have long been focusing on responsive web application development with React.js/Redux/Styled-Component/Material-UI, Angular 2+, Vue.js/Vuex/Vuetify, Node.js, Laravel, WordPress, Webflow, PHP, ES6/7, TypesScript, HTML5, CSS3, and etc.
         <br></br><br></br>
         During my career, I have participated in a wide range of web projects(from small to large scale), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
         </p>

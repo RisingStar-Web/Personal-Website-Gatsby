@@ -27,9 +27,9 @@ export default [
 	{
 		id: 1,
 		name: "DVIP",
-		designation: "Front-End Developer",
+		designation: "WordPress Developer",
 		dated: "Jan 2015 - June 2017",
 		logo: dvip,
 		companyLink: "https://dvip.org/",
-		description:"<p>Contribution : <p> <ul><li>Participated in SPA and SaaS application development using MEAN and MEVN stack.</li><li>Converted InVision designs into pixel-perfect UI elements.</li></ul>"}
+		description:"<p>Contribution : <p> <ul><li>Created 5+ WordPress themes and plugins.</li><li>Customized 20+ WordPress themes and plugins.</li></ul>"}
 ];
