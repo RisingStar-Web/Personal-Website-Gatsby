@@ -28,7 +28,7 @@ export default [
                 description:'PrimeXBT Turbo Trading Page'
             },
             {
-                src: require('../assets/images/projects/primeXBT/account.png'),
+                src: require('../assets/images/projects/primeXBT/Account.png'),
                 title: 'PrimeXBT',
                 description:'PrimeXBT Account Page'
             }
