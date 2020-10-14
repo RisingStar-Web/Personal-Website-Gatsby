@@ -11,35 +11,35 @@ import Layout from '../components/layout'
 const Projects = () => (
   <Layout>
   <ProjectsWrapper>
-    <Tabs>
+    {/* <Tabs>
       <TabList>
         <Tab>Professional</Tab>
         <Tab>Personal</Tab>
-        <Tab>Undergrad</Tab>
-      </TabList>
+        {/* <Tab>Undergrad</Tab> */}
+      {/* </TabList> */}
 
-      <TabPanel>
+      {/* <TabPanel> */}
         <ProjectsSection>
           {
             proProjects.map(item => (<ProjectBox key={item.id} info={item} />))
           }
         </ProjectsSection>
-      </TabPanel>
-      <TabPanel>
+      {/* </TabPanel> */}
+      {/* <TabPanel>
         <ProjectsSection>
           {
             hobbyProjects.map(item => (<ProjectBox key={item.id} info={item} />))
           }
         </ProjectsSection>
-      </TabPanel>
-      <TabPanel>
+      </TabPanel> */}
+      {/* <TabPanel>
         <ProjectsSection>
           {
             gradProjects.map(item => (<ProjectBox key={item.id} info={item} />))
           }
         </ProjectsSection>
-      </TabPanel>
-    </Tabs>
+      </TabPanel> */}
+    {/* </Tabs> */}
   </ProjectsWrapper>
   </Layout>
 )
