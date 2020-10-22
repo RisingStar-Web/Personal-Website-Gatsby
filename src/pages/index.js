@@ -16,9 +16,11 @@ const IndexPage = () => {
         <br></br><br></br>
         Specifically, I have long been focusing on responsive web application development with React.js/Redux/Styled-Component/Material-UI, Angular 2+, Vue.js/Vuex/Vuetify, Node.js, Laravel, WordPress, Webflow, PHP, ES6/7, TypesScript, HTML5, CSS3, and etc.
         <br></br><br></br>
-        During my career, I have participated in a wide range of web projects(from small to large scale), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
+        During my career, I have participated in a wide range of web projects ( e-commerce, real estate, social media platforms, fintech ), and learned how to collaborate with team members, great attitude in the development process, project management, meet deadlines, and risk management.
+        <br></br><br></br>
+        🚀Let's go!🛫
         </p>
-        <DownloadButton href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Updated-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
+        <DownloadButton href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Web-Developer.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
       <img src={MaksimImg} alt="maksim" />
     </UserDescription>

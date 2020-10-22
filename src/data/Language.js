@@ -7,8 +7,4 @@ export default [
         id: 2,
         name: "Russian"
     },
-    {
-        id: 3,
-        name: "Vietnamese"
-    }
 ];

@@ -11,6 +11,8 @@ export const ContactHeader = styled.h1`
   color: #eeeeee;
   margin-bottom: 5%;
   font-weight: 300;
+  line-height:40px;
+
 `
 export const ContactDetails = styled.div`
   display: flex;

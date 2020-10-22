@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Lightbox from "react-lightbox-component";
-import 'react-lightbox-component/build/css/index.css';
+import "react-lightbox-component/build/css/index.css";
 
 const Box = styled.div`
   max-width: 450px;
@@ -89,7 +89,7 @@ const ProjectBox = ({ info }) => (
     </BoxIcon>
     <BoxDescription>
       <div>
-      <Lightbox images={info.images} showImageModifiers={true} />
+        <Lightbox images={info.images} showImageModifiers={true} />
       </div>
       <p> {info.description}</p>
       <BoxStack>
