@@ -6,7 +6,6 @@ import lang from "../data/Language";
 import hobby from "../data/Interests";
 import skillsData from "../data/Skills";
 import SkillBar from "../components/Skill";
-import { SkillBars } from 'react-skills';
 import {
 	ExperienceWrapper,
 	WorkWrapper,

@@ -15,23 +15,23 @@ export default [
         images:[
             {
                 src: require('../assets/images/projects/primeXBT/home.png'),
-                title: 'PrimeXBT',
-                description:'PrimeXBT Home Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/primeXBT/trading.png'),
-                title: 'PrimeXBT',
-                description:'PrimeXBT Leverage Trading Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/primeXBT/turboTrading.png'),
-                title: 'PrimeXBT',
-                description:'PrimeXBT Turbo Trading Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/primeXBT/Account.png'),
-                title: 'PrimeXBT',
-                description:'PrimeXBT Account Page'
+                width:1,
+                height:1
             }
         ]
     },
@@ -47,23 +47,23 @@ export default [
         images:[
             {
                 src: require('../assets/images/projects/morpheuslabs/home.png'),
-                title: 'Morpheus Labs SEED',
-                description:'Morpheus Labs SEED Home Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/morpheuslabs/signup.png'),
-                title: 'Morpheus Labs SEED',
-                description:'Morpheus Labs SEED SignUp Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/morpheuslabs/dashboard.png'),
-                title: 'Morpheus Labs SEED',
-                description:'Morpheus Labs SEED Dashboard Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/morpheuslabs/dashboard-light.png'),
-                title: 'Morpheus Labs SEED',
-                description:'Morpheus Labs SEED Light Dashboard Page'
+                width:1,
+                height:1
             }
         ]
     },
@@ -74,23 +74,23 @@ export default [
         images:[
             {
                 src: require('../assets/images/projects/tmdb/home.png'),
-                title: 'React App using TMDB',
-                description:'Morpheus Labs SEED Home Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/tmdb/tv-shows.png'),
-                title: 'React App using TMDB',
-                description:'React App using TMDB TV Shows Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/tmdb/card.png'),
-                title: 'React App using TMDB',
-                description:'React App using TMDB Movie Card Page'
+                width:1,
+                height:1
             },
             {
                 src: require('../assets/images/projects/tmdb/preview-details.png'),
-                title: 'React App using TMDB',
-                description:'React App using TMDB Card Details Page'
+                width:1,
+                height:1
             }
         ],
 		description:
@@ -107,23 +107,23 @@ export default [
         images:[
             {
                 src: require('../assets/images/projects/elevux/home.png'),
-                title: 'Elevux',
-                description:'Elevux Home Page'
+                width:2,
+                height:2
             },
             {
                 src: require('../assets/images/projects/elevux/argumented-reality.png'),
-                title: 'Elevux',
-                description:'Elevux Argumented Reality Page'
+                width:2,
+                height:2
             },
             {
                 src: require('../assets/images/projects/elevux/our-work.png'),
-                title: 'Elevux',
-                description:'Elevux Work Page'
+                width:2,
+                height:2
             },
             {
                 src: require('../assets/images/projects/elevux/about-us.png'),
-                title: 'Elevux',
-                description:'Elevux About Us Page'
+                width:2,
+                height:2
             }
         ],
 		description:

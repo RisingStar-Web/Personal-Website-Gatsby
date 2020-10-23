@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState, useCallback } from "react";
 import styled from "styled-components";
-import Lightbox from "react-lightbox-component";
-import "react-lightbox-component/build/css/index.css";
+import Gallery from "react-photo-gallery";
+import Carousel, { Modal, ModalGateway } from "react-images";
 
 const Box = styled.div`
   max-width: 450px;
@@ -81,29 +81,62 @@ const BoxStack = styled.div`
     margin: 0;
   }
 `;
-const ProjectBox = ({ info }) => (
-  <Box>
-    <BoxIcon>
-      <img src={info.icon} alt="maksim project icon" />
-      <h3>{info.title}</h3>
-    </BoxIcon>
-    <BoxDescription>
-      <div>
-        <Lightbox images={info.images} showImageModifiers={true} />
-      </div>
-      <p> {info.description}</p>
-      <BoxStack>
-        {info.githubPath != null ? (
-          <a href={info.githubPath}>On Github </a>
-        ) : (
-          ""
-        )}
-        {info.demoPath != null ? <a href={info.demoPath}>Project Demo </a> : ""}
-        <p>Development year - {info.year} </p>
-        <p>Technology stack - {info.techUsed} </p>
-      </BoxStack>
-    </BoxDescription>
-  </Box>
-);
+const ProjectBox = ({ info }) => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [viewerIsOpen, setViewerIsOpen] = useState(false);
+
+  const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+
+  const closeLightbox = () => {
+    setCurrentImage(0);
+    setViewerIsOpen(false);
+  };
+  return (
+    <Box>
+      <BoxIcon>
+        <img src={info.icon} alt="maksim project icon" />
+        <h3>{info.title}</h3>
+      </BoxIcon>
+      <BoxDescription>
+        <div>
+          <Gallery photos={info.images} onClick={openLightbox} />
+          <ModalGateway>
+            {viewerIsOpen ? (
+              <Modal onClose={closeLightbox}>
+                <Carousel
+                  currentIndex={currentImage}
+                  views={info.images.map((x) => ({
+                    ...x,
+                    srcset: x.srcSet,
+                    caption: x.title,
+                  }))}
+                />
+              </Modal>
+            ) : null}
+          </ModalGateway>
+        </div>
+        <br></br>
+        <p> {info.description}</p>
+        <BoxStack>
+          {info.githubPath != null ? (
+            <a href={info.githubPath}>On Github </a>
+          ) : (
+            ""
+          )}
+          {info.demoPath != null ? (
+            <a href={info.demoPath}>Project Demo </a>
+          ) : (
+            ""
+          )}
+          <p>Development year - {info.year} </p>
+          <p>Technology stack - {info.techUsed} </p>
+        </BoxStack>
+      </BoxDescription>
+    </Box>
+  );
+};
 
 export default ProjectBox;
