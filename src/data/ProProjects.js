@@ -1,10 +1,11 @@
 import primXBT from '../assets/images/projects/primeXBT/logo.svg'
 import morpheuslabs from '../assets/images/projects/morpheuslabs/logo.svg'
 import tmdb from '../assets/images/projects/tmdb/logo.svg'
+import elevux from '../assets/images/projects/elevux/elevux-full-logo.png'
 export default [
     {
         id: 1,
-        title: "PrimeXBT",
+        title: "",
         icon: primXBT,
         description: "PrimeXBT is a Bitcoin-based platform that offers margin trading on several digital assets, including Bitcoin, Ethereum, Litecoin and Ripple. The company was founded in 2018 and has grown exponentially from the very beginning and currently serves customers in more than 150 countries. They provide their clients with the highest level of liquidity and access to a variety of trading tools. In addition, it maintains security and liquidity, and creates an environment where everyone can trade safely and efficiently.",
         githubPath: null,
@@ -68,7 +69,7 @@ export default [
     },
     {
 		id: 3,
-		title: "React MobX Movies App",
+		title: "",
         icon: tmdb,
         images:[
             {
@@ -101,8 +102,8 @@ export default [
 	},
     {
 		id: 4,
-		title: "Elevux",
-        icon: tmdb,
+		title: "",
+        icon: elevux,
         images:[
             {
                 src: require('../assets/images/projects/elevux/home.png'),
