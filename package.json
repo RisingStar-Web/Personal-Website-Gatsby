@@ -22,6 +22,7 @@
     "react": "^16.6.3",
     "react-coverflow": "^0.2.20",
     "react-dom": "^16.6.3",
+    "react-floating-button": "^1.1.1",
     "react-helmet": "^5.2.0",
     "react-id-swiper": "^4.0.0",
     "react-images": "^1.1.7",

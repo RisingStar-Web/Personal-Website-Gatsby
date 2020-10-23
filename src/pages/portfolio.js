@@ -7,12 +7,14 @@ import {
   wordpress_portfolios,
 } from "../data/Portfolios";
 import Coverflow from "react-coverflow";
-import { Hero, Container } from "../styles/portfolioStyle";
+import { Hero, Container, Homebutton } from "../styles/portfolioStyle";
 import ParticlesBg from "particles-bg";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
+import { FloatingButton, Item } from "react-floating-button";
+import home from "../assets/images/buttons/home.svg";
 
 var fn = function() {
   /* do you want */
@@ -33,6 +35,7 @@ const Portfolio = () => {
   };
   return (
     <Container>
+      <Homebutton href="/">Home</Homebutton>
       <ParticlesBg type="cobweb" bg={true} color="#ff00ff" num={200} />
       <Hero>
         <Coverflow
