@@ -2,7 +2,12 @@ import React from "react";
 import "../styles/tabs.css";
 import proProjects from "../data/ProProjects";
 import ProjectBox from "../components/Projects/ProjectBox";
-import { ProjectsWrapper, ProjectsSection } from "../styles/projectsStyle.js";
+import {
+  ProjectsWrapper,
+  ProjectsSection,
+  MoreButton,
+} from "../styles/projectsStyle.js";
+// import '../styles/textStyles.css'
 import Layout from "../components/layout";
 
 const Projects = () => (
@@ -13,6 +18,9 @@ const Projects = () => (
           <ProjectBox key={item.id} info={item} />
         ))}
       </ProjectsSection>
+      <MoreButton href="/portfolio">
+        Are you still interesting? Click here! 🚀
+      </MoreButton>
     </ProjectsWrapper>
   </Layout>
 );

@@ -1,6 +1,6 @@
 import primXBT from '../assets/images/projects/primeXBT/logo.svg'
 import morpheuslabs from '../assets/images/projects/morpheuslabs/logo.svg'
-import tmdb from '../assets/images/projects/tmdb/logo.svg'
+import anime from '../assets/images/projects/anime/logo.png'
 import elevux from '../assets/images/projects/elevux/elevux-full-logo.png'
 export default [
     {
@@ -70,35 +70,35 @@ export default [
     {
 		id: 3,
 		title: "",
-        icon: tmdb,
+        icon: anime,
         images:[
             {
-                src: require('../assets/images/projects/tmdb/home.png'),
+                src: require('../assets/images/projects/anime/home.png'),
                 width:1,
                 height:1
             },
             {
-                src: require('../assets/images/projects/tmdb/tv-shows.png'),
+                src: require('../assets/images/projects/anime/categories.png'),
                 width:1,
                 height:1
             },
             {
-                src: require('../assets/images/projects/tmdb/card.png'),
+                src: require('../assets/images/projects/anime/anime-details.png'),
                 width:1,
                 height:1
             },
             {
-                src: require('../assets/images/projects/tmdb/preview-details.png'),
+                src: require('../assets/images/projects/anime/watch.png'),
                 width:1,
                 height:1
             }
         ],
 		description:
-			"This is a responsive movies app that displays the latest upcoming movies, built using ReactJS and utilizes MobX for state management.The Movie Database (TMDb) API is used to fetch data. Can search for movies based on movie name. Can view full details including cast members of each movie by clicking on 'See More' button.",
+			"This is a responsive movies app that displays the latest upcoming movies, built using ReactJS and React-Query.The Movie Database (TMDb) API is used to fetch data. Can search for movies based on movie name. Can view full details including cast members of each movie by clicking on 'See More' button.",
 		githubPath: "https://github.com/RisingStar-Web/mobx-tmdb-react-app",
-		demoPath: "http://mobx-tmdb-app.surge.sh/",
+		demoPath: "http://anime-movie.netlify.app/",
 		year: "2019",
-		techUsed: "React, MobX, Material-UI, TMDb api"
+		techUsed: "React, React-Query, Material-UI, TMDb api"
 	},
     {
 		id: 4,

@@ -211,8 +211,6 @@ body {
 }
 img {
   max-width: 100%;
-  margin-left: 5px;
-  margin-right: 5px;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -635,7 +633,7 @@ div.cutBackground{
   text-align: center;
 }
 .defaultFooter p {
-  color: #0f1645;
+  color: white;
 }
 .defaultFooter a {
   color: #7fa1e8;
@@ -643,14 +641,10 @@ div.cutBackground{
   text-decoration: none;
 }
 .footerAbsolute{
-  margin: 8% auto 0;
   text-align: CENTER;
   bottom: 0;
-  margin: 0 -8% -5% -8%;
-  position: absolute;
   width: 100%;
   box-sizing: border-box;
-  background-color: #eeeeee;
 }
 div.footerInitial{
   position: inherit;

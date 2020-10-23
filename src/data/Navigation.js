@@ -19,4 +19,5 @@ export default [
     label: 'Recommendation',
     path: '/recommendation',
   }
+
 ]

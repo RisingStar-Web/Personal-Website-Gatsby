@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+ *, *:before, *:after {
+	 box-sizing: border-box;
+}
+ body {
+	 margin: 0;
+	 font-family: Arial, sans-serif;
+	 min-height: 100vh;
+	 min-width: 100vw;
+	 background-color: #2b2520;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ .container * {
+	 margin: 20px 0;
+}
+ .container .line-text {
+	 position: relative;
+	 display: inline-block;
+	 font-size: 110px;
+	 font-weight: 800;
+	 text-transform: uppercase;
+	 font-style: italic;
+	 color: transparent;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: white;
+	 white-space: nowrap;
+	 text-shadow: 12px 15px #39dbc2, 13px 16px #f41fbf, 14px 17px #f41fbf, 15px 18px #f41fbf, 16px 19px #f41fbf, 17px 20px #f41fbf, 18px 21px #f41fbf, 19px 22px #f41fbf, 20px 23px #f41fbf, 21px 24px #f41fbf, 22px 25px #f41fbf, 23px 26px #f41fbf, 24px 27px #f41fbf, 25px 28px #f41fbf;
+}
+ .container .neon-text {
+	 position: relative;
+	 font-family: 'Pacifico', cursive;
+	 text-transform: uppercase;
+	 font-size: 110px;
+	 color: #fa99e2;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: #f537c6;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 text-shadow: 0 0 40px #f537c6, 0 0 40px #f537c6, 0 0 40px #f537c6;
+}
+ .container .neon-text:after {
+	 content: 'underlying wire';
+	 z-index: -1;
+	 position: absolute;
+	 color: transparent;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: #440334;
+	 top: -5%;
+	 left: -0.5%;
+}
+ .container .stripe-text {
+	 position: relative;
+	 font-size: 110px;
+	 text-transform: uppercase;
+	 font-weight: 900;
+	 font-family: 'Catamaran', sans-serif;
+	 font-style: italic;
+}
+ .container .stripe-text:after {
+	 position: absolute;
+	 left: 0;
+	 content: 'quick turnover';
+	 background: -webkit-repeating-linear-gradient(135deg, #f41fbf, #f41fbf 20px, #ffed28 20px, #ffed28 40px, #b028ff 40px, #b028ff 60px, #39dbc2 60px, #39dbc2 80px);
+	 background-clip: text;
+	 -webkit-background-clip: text;
+	 color: transparent;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: white;
+}
+ .container .stripe-text:before {
+	 z-index: -1;
+	 position: absolute;
+	 content: 'quick turnover';
+	 color: #f41fbf;
+	 top: 0px;
+	 left: 0px;
+	 text-shadow: 5px 0px #f41fbf, 6px 1px #f41fbf, 7px 2px #f41fbf, 8px 3px #f41fbf, 9px 4px #f41fbf, 10px 5px #f41fbf, 11px 6px #f41fbf, 12px 7px #f41fbf, 13px 8px #f41fbf, 14px 9px #f41fbf, 15px 10px #f41fbf;
+}
+ .container .cut-text {
+	 position: relative;
+	 text-transform: uppercase;
+	 font-size: 110px;
+	 color: transparent;
+	 font-weight: 900;
+	 font-family: 'Catamaran', sans-serif;
+	 font-style: italic;
+}
+ .container .cut-text:after {
+	 content: 'stolen hour';
+	 position: absolute;
+	 left: -10px;
+	 top: -2px;
+	 color: white;
+	 -webkit-clip-path: polygon(0 25%, 100% 65%, 100% 100%, 0% 100%);
+	 clip-path: polygon(0 25%, 100% 65%, 100% 100%, 0% 100%);
+}
+ .container .cut-text:before {
+	 content: 'stolen hour';
+	 position: absolute;
+	 color: white;
+	 -webkit-clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
+	 clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
+}
+ .container .cyber-text {
+	 position: relative;
+	 text-transform: uppercase;
+	 font-size: 110px;
+	 font-family: 'Catamaran', sans-serif;
+	 color: rgba(255, 255, 255, 0.8);
+}
+ .container .cyber-text:before {
+	 position: absolute;
+	 content: 'digital highway';
+	 color: rgba(73, 167, 255, 0.8);
+	 top: 5px;
+	 left: 10px;
+}
+ .container .cyber-text:after {
+	 z-index: -1;
+	 position: absolute;
+	 content: 'digital highway';
+	 color: rgba(255, 56, 56, 0.8);
+	 top: -5px;
+	 left: 8px;
+}
+ .container .wood-text {
+	 background: url('https://i.imgur.com/OUyfQnt.jpg');
+	 background-size: cover;
+	 position: relative;
+	 font-size: 165px;
+	 text-transform: uppercase;
+	 font-family: 'Rancho', cursive;
+	 background-clip: text;
+	 -webkit-background-clip: text;
+	 color: transparent;
+}
+ .container .wood-text:after {
+	 content: 'suitable villa';
+	 position: absolute;
+	 -webkit-text-stroke-width: 5.5px;
+	 -webkit-text-stroke-color: rgba(0, 0, 0, 0.6);
+	 left: 2px;
+	 top: 2px;
+}
+ .container .comic-text {
+	 font-family: 'Molle', cursive;
+	 position: relative;
+	 font-size: 110px;
+	 text-transform: uppercase;
+	 word-spacing: -12px;
+	 letter-spacing: -5px;
+	 -webkit-text-stroke-width: 38.5px;
+	 -webkit-text-stroke-color: white;
+}
+ .container .comic-text:before {
+	 position: absolute;
+	 content: 'square tube!';
+	 top: 3px;
+	 left: 12px;
+	 color: #ffed28;
+	 -webkit-text-stroke-width: 8.8px;
+	 -webkit-text-stroke-color: #262626;
+}
+ .container .comic-text:after {
+	 position: absolute;
+	 content: 'square tube!';
+	 top: 0;
+	 left: 0;
+	 color: #ff5252;
+	 -webkit-text-stroke-width: 6.6px;
+	 -webkit-text-stroke-color: #262626;
+}
+ .container .horizontal-cut-text {
+	 font-size: 132px;
+	 font-weight: 900;
+	 font-family: 'Catamaran', sans-serif;
+	 text-transform: uppercase;
+	 background: -webkit-linear-gradient(270deg, #d60aa3, #d60aa3 50%, transparent 50%), -webkit-repeating-linear-gradient(90deg, transparent, transparent 3%, white 3%, white 6%);
+	 background-clip: text;
+	 -webkit-background-clip: text;
+	 color: transparent;
+	 text-shadow: 6px 6px rgba(0, 0, 0, 0.4);
+}
+ .container .double-border-text {
+	 position: relative;
+	 font-family: 'Pacifico', cursive;
+	 text-transform: uppercase;
+	 font-size: 110px;
+	 color: white;
+	 -webkit-text-stroke-width: 16.8px;
+	 -webkit-text-stroke-color: #fff9db;
+}
+ .container .double-border-text:after {
+	 content: 'entire volume';
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 -webkit-text-stroke-width: 0;
+	 color: #db7953;
+}
+ .container .double-border-text:before {
+	 z-index: -1;
+	 content: 'entire volume';
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 -webkit-text-stroke-width: 31.8px;
+	 -webkit-text-stroke-color: #db7953;
+}
+ 

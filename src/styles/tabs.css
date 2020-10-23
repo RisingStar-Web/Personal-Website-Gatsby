@@ -3,22 +3,11 @@
 }
 
 .react-tabs__tab-list {
-  margin: 0 0 100px;
+  margin: 0 0 50px;
   padding: 0;
   text-align: center;
 }
 
-.react-tabs__tab {
-  display: inline-block;
-  border-bottom: none;
-  bottom: -1px;
-  position: relative;
-  list-style: none;
-  padding: 6px 12px;
-  cursor: pointer;
-  border-right: 1px solid #eee;
-  color: #fff;
-}
 .react-tabs__tab:last-of-type {
   border-right: none;
 }
