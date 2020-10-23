@@ -7,7 +7,6 @@ import {
   ProjectsSection,
   MoreButton,
 } from "../styles/projectsStyle.js";
-// import '../styles/textStyles.css'
 import Layout from "../components/layout";
 
 const Projects = () => (

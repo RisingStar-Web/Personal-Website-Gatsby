@@ -7,7 +7,6 @@ import Helmet from "react-helmet";
 import favicon from "../assets/images/maksim-favicon.png";
 import blueBg from "../assets/images/blue-bg.png";
 import { Location } from "@reach/router";
-import MouseParticles from "react-mouse-particles";
 
 // import Header from '../components/Header/Header'
 // import Footer from '../components/Footer/Footer'
