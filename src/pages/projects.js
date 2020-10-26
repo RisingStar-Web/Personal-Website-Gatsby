@@ -17,7 +17,7 @@ const Projects = () => (
           <ProjectBox key={item.id} info={item} />
         ))}
       </ProjectsSection>
-      <MoreButton href="/portfolio">
+      <MoreButton href="/projects">
         Are you still interesting? Click here! 🚀
       </MoreButton>
     </ProjectsWrapper>

@@ -1,3 +1,5 @@
+"use strict"
+
 import React, { useState, useCallback } from "react";
 import styled from "styled-components";
 import Gallery from "react-photo-gallery";
@@ -118,7 +120,7 @@ const ProjectBox = ({ info }) => {
             ) : null}
           </ModalGateway>
         </div>
-        <br></br>
+        <br />
         <p> {info.description}</p>
         <BoxStack>
           {info.githubPath != null ? (

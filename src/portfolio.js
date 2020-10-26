@@ -13,8 +13,6 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
-import { FloatingButton, Item } from "react-floating-button";
-import home from "../assets/images/buttons/home.svg";
 
 var fn = function() {
   /* do you want */
@@ -47,7 +45,7 @@ const Portfolio = () => {
           active={0}
         >
           {top_portfolios.map((image, index) => (
-            <img src={image.src} alt={image.title} data-action={image.link} />
+            <img src={image.src} alt={image.title} data-action={image.link} key={index} />
           ))}
         </Coverflow>
       </Hero>

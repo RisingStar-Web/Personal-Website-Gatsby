@@ -1,0 +1,1 @@
+which is an NFT minting app where users can generate NFTs after staking an ERC20 token. After staking an ERC20, they earn a different ERC20 on a 1 to 1 basis. Then those generated tokens can be exchanged for an NFT.
