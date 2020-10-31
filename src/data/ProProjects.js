@@ -12,7 +12,7 @@ export default [
     githubPath: null,
     demoPath: null,
     year: "2020",
-    techUsed: "Vue, Vuex, Vuetify, Nodejs, TypeScript",
+    techUsed: "Angular, NgRx, Vuetify, Angular Material, TypeScript",
     images: [
       {
         src: require("../assets/images/projects/primeXBT/home.png"),
