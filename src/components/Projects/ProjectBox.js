@@ -33,7 +33,7 @@ const Box = styled.div`
     margin: 0 0 4%;
   }
 `;
-const BoxIcon = styled.div`
+const BoxIcon = styled.a`
   height: 120px;
   display: flex;
   justify-content: flex-start;
@@ -98,7 +98,7 @@ const ProjectBox = ({ info }) => {
   };
   return (
     <Box>
-      <BoxIcon>
+      <BoxIcon href={info.demoPath} target="_blank">
         <img src={info.icon} alt="maksim project icon" />
         <h3>{info.title}</h3>
       </BoxIcon>
@@ -129,7 +129,7 @@ const ProjectBox = ({ info }) => {
             ""
           )}
           {info.demoPath != null ? (
-            <a href={info.demoPath}>Project Demo </a>
+            <a href={info.demoPath}>Visit website </a>
           ) : (
             ""
           )}
