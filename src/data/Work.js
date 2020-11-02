@@ -1,14 +1,14 @@
 import morpheus from "../assets/images/morpheus.png";
-import dvip from "../assets/images/dvip.png";
-import rhonda from "../assets/images/rhonda.png";
+import elevux from "../assets/images/elevux.png";
+import picnichealth from "../assets/images/picnichealth.svg";
 
 export default [
 	
 	{
 		id: 3,
 		name: "Morpheus Labs, Inc",
-		designation: "Web Developer",
-		dated: "July 2019 - August 2020",
+		designation: "Software Engineer",
+		dated: "July 2019 - Dec 2020",
 		logo: morpheus,
 		companyLink: "https://morpheuslabs.io/",
 		description:
@@ -16,20 +16,20 @@ export default [
 	},
 	{
 		id: 2,
-		name: "Rhonda Software",
+		name: "PicnicHealth",
 		designation: "Web Developer",
 		dated: "July 2017 - June 2019",
-		logo: rhonda,
-		companyLink: "https://www.rhondasoftware.com/",
+		logo: picnichealth,
+		companyLink: "https://picnichealth.com",
 		description:
-			"<p>Rhonda Software is a software and hardware development company. The company is privately held, founded in 1995 in Vladivostok, Russia. Rhonda specializes in Imaging, Multimedia, and Connectivity. <p>Contribution : <p> <ul><li>Participated in hospital management system development which involves JavaScript (React & Redux & Node.js), HTML, CSS, Bootstrap and more.</li><li>Extensive server development using Node.js (Express, Feather.js), MySQL & PostgreSQL, Rest APIs.</li><li>Wrote automated tests to make sure the components work as expected.</li></ul>"
+			"<p>PicnicHealth Software is a customizable, comprehensive, and integrated hospital management system designed to manage all hospital operations. <p>Contribution : <p> <ul><li>Participated in hospital management system development which involves JavaScript (React & Redux & Node.js), HTML, CSS, Bootstrap and more.</li><li>Extensive server development using Node.js (Express, Feather.js), MySQL & PostgreSQL, Rest APIs.</li><li>Wrote automated tests to make sure the components work as expected.</li></ul>"
 	},
 	{
 		id: 1,
-		name: "DVIP",
+		name: "Elevux",
 		designation: "WordPress Developer",
 		dated: "Jan 2015 - June 2017",
-		logo: dvip,
+		logo: elevux,
 		companyLink: "https://dvip.org/",
 		description:"<p>Contribution : <p> <ul><li>Created 5+ WordPress themes and plugins.</li><li>Customized 20+ WordPress themes and plugins.</li></ul>"}
 ];

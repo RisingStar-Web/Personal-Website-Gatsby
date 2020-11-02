@@ -14,6 +14,6 @@ export default [
         title: "LinkedIn",
         icon: linkedin,
         linkTo: true,
-        path: "https://www.linkedin.com/in/maksim-damaskin-0914"
+        path: "https://www.linkedin.com/in/roy-chong-0914"
     },
 ];

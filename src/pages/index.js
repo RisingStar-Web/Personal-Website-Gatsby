@@ -1,5 +1,5 @@
 import React from "react";
-import MaksimImg from "../assets/images/me1.png";
+import RoyImg from "../assets/images/me1.png";
 import AboutBox from "../components/About/AboutBox";
 import about from "../data/About";
 import {
@@ -16,7 +16,7 @@ const IndexPage = () => {
     <Layout>
       <UserWrapper>
         <UserTitle>
-          Maksim <span>Damaskin</span>
+          Roy <span>Chong</span>
         </UserTitle>
         <UserDescription>
           <div>
@@ -43,14 +43,14 @@ const IndexPage = () => {
               🚀Let's go!🛫
             </p>
             <DownloadButton
-              href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Web-Developer.pdf"
+              href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Roy-Resume.pdf"
               download
               title="Resume"
             >
               Download Resume
             </DownloadButton>
           </div>
-          <img src={MaksimImg} alt="maksim" />
+          <img src={RoyImg} alt="Roy" />
         </UserDescription>
         <UserTopic>
           {about.map((item) => (

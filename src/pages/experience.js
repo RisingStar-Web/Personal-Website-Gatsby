@@ -2,7 +2,6 @@ import React from "react";
 import "../styles/stepper.css";
 import work from "../data/Work";
 import grad from "../data/Edu";
-import lang from "../data/Language";
 import hobby from "../data/Interests";
 import skillsData from "../data/Skills";
 import SkillBar from "../components/Skill";
@@ -83,14 +82,7 @@ const Experience = () => (
 						</div>
 					))}
 				</EdContent>
-				<h1>Language</h1>
-				<EdContent>
-					{lang.map(item => (
-						<div key={item.id}>
-							<p>{item.name}</p>
-						</div>
-					))}
-				</EdContent>
+				
 				<h1>Skills</h1>
 				<EdContent>
 					<SkillBar hue="255" saturation="100" transparet skills={skillsData}/>

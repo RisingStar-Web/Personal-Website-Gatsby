@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "personal-website-reach",
-    "alias": "maksim-damaskin-star.netlify.app",
+    "alias": "risingdevstar.com",
     "builds": [
       { 
         "src": "package.json", 

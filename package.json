@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple portfolio website developed quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Maksim Damaskin <webdevstar14@gmail.com>",
+  "author": "Roy Chong <webdevstar14@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.76",

@@ -6,7 +6,7 @@ import Footer from '../components/Footer/footer'
 import styled from 'styled-components'
 import './index.css'
 import { siteMeta } from '../data/Seo'
-import favicon from '../assets/images/maksim-favicon.png'
+import favicon from '../assets/images/roy-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
 
 const Wrapper = styled.div`

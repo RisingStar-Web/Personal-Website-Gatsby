@@ -1,23 +1,23 @@
-import favicon from '../assets/images/maksim-favicon.png'
+import favicon from '../assets/images/roy-favicon.png'
 
 export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "http://maksim-damskin.me",
-    "name": "Maksim Damaskin | Front-end Engineer, Self-Employed",
+    "url": "http://risingdevstar.com",
+    "name": "Roy Chong | Front-end Engineer, Self-Employed",
     "author": {
         "@type": "Person",
-        "name": "Maksim-Damaskin"
+        "name": "Roy-Chong"
     }
 }
 export const siteMeta = {
-    title: 'Maksim Damaskin | Frontend Developer',
+    title: 'Roy Chong | Frontend Developer',
     favicon: favicon,
-    author: "Maksim Damaskin",
+    author: "Roy Chong",
     description: "Hello there, welcome to my portfolio. I am a front-end web developer who is comfortable with architecting and implementing scalable and maintainable web app/services with the TDD/BDD approach.",
-    copyright: "Maksim Damaskin, Copyright (c) 2020",
+    copyright: "Roy Chong, Copyright (c) 2020",
     keywords: [
-        "Maksim Damaskin",
+        "Roy Chong",
         "ZoojooBE",
         "frontend engineer",
         "frontend developer",

@@ -13,7 +13,7 @@ const Footer = ({ footerClass }) => (
 			</a>{" "}
 			| Developer{" "}
 			<a href="https://www.behance.net/risingstar1002" target="_blank">
-				Maksim Damaskin
+				Roy Chong
 			</a>
 		</p>
 	</div>

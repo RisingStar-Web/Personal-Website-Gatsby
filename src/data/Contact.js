@@ -17,7 +17,7 @@ export default [
     },
     {
         id: 3,
-        title: "+1 (669) 209-2852",
+        title: "+1 (825) 414-0019",
         icon: telephone,
         linkTo: false,
     },

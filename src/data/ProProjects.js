@@ -81,7 +81,7 @@ export default [
       "This is a responsive movies app that displays the latest upcoming movies, built using ReactJS and React-Query.The Movie Database (TMDb) API is used to fetch data. Can search for movies based on movie name. Can view full details including cast members of each movie by clicking on 'See More' button.",
     githubPath: "https://github.com/RisingStar-Web/Anime",
     demoPath: "http://anime-movie.netlify.app/",
-    year: "2019",
+    year: "2020",
     techUsed: "React, React-Query, Material-UI, TMDb api",
     images: [
       {

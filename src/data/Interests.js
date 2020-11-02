@@ -1,22 +1,11 @@
 export default [
     {
         id: 1,
-        name: "Yoga"
+        name: "Playing Chess"
     },
     {
         id: 2,
-        name: "Cooking"
+        name: "Reading Book"
     },
-    {
-        id: 3,
-        name: "Fine Arts"
-    },
-    {
-        id: 4,
-        name: "Traveling"
-    },
-    {
-        id: 5,
-        name: "Booking"
-    }
+    
 ];

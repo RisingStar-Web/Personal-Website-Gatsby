@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Maksim Damaskin',
-    siteUrl: 'http://maksim-damaskin.com',
+    title: 'Roy Chong',
+    siteUrl: 'http://risingdevstar.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

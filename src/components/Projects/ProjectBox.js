@@ -99,7 +99,7 @@ const ProjectBox = ({ info }) => {
   return (
     <Box>
       <BoxIcon href={info.demoPath} target="_blank">
-        <img src={info.icon} alt="maksim project icon" />
+        <img src={info.icon} alt="roy project icon" />
         <h3>{info.title}</h3>
       </BoxIcon>
       <BoxDescription>
