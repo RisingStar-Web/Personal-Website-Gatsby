@@ -43,7 +43,7 @@ const IndexPage = () => {
               🚀Let's go!🛫
             </p>
             <DownloadButton
-              href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Roy-Resume.pdf"
+              href="https://github.com/RisingStar-Web/Personal-Website-Gatsby/blob/master/Web-Developer.pdf"
               download
               title="Resume"
             >
