@@ -25,8 +25,8 @@ export default [
     },
     {
         id: 4,
-        name: "Ilya Novodvorskiy",
-        designation: "CEO & Co-Founder at Readmio",
+        name: "Noga Leviner",
+        designation: "CEO & Co-Founder at PicnicHealth",
         userLink: null,
         dated: "January 14, 2018",
         description: "\"Roy is very passionate and has a great vision for his work. I work with Roy in fintech web application development for past two years. His focus keeps everything moving smoothly. He is responsible for web interface of fintech product. He makes sure all the deadline are met and at the same time meets the highest standards. Roy spends decent amount of time updating his skill and learn new technologies and implement the same to make the product more efficient and user-friendly.\""
