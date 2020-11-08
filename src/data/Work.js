@@ -12,7 +12,7 @@ export default [
 		logo: morpheus,
 		companyLink: "https://morpheuslabs.io/",
 		description:
-			"<p>Morpheus is a Singapore-based company providing businesses with an end-to-end Blockchain-Platform as a Service (BPaaS) solution for innovation and value creation. Its solution power-up blockchain application development offers ready-to-use development tools and applications in an agnostic environment with leading blockchain technologies to facilitate mass adoption. </li></ul><p>Contribution : <p> <ul><li>Worked in Blockchain for Decentralized finance.</li><li>Created Components, modules, and services using the latest Angular & React & Vue.</li><li>Integrated with backend APIs using GraphQL & Apollo. .</li></ul>"
+			"<p>Morpheus is a Singapore-based company providing businesses with an end-to-end Blockchain-Platform as a Service (BPaaS) solution for innovation and value creation. Its solution power-up blockchain application development offers ready-to-use development tools and applications in an agnostic environment with leading blockchain technologies to facilitate mass adoption. </li></ul><p>Contribution : <p> <ul><li>Worked in Blockchain for Decentralized finance.</li><li>Created Components, modules, and services using the latest Angular & React & Vue.</li><li>Integrated with backend APIs using GraphQL & Apollo.</li></ul>"
 	},
 	{
 		id: 2,
