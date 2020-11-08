@@ -8,7 +8,7 @@ export default [
 		id: 3,
 		name: "Morpheus Labs, Inc",
 		designation: "Web Developer",
-		dated: "July 2019 - Dec 2020",
+		dated: "July 2019 - Oct 2020",
 		logo: morpheus,
 		companyLink: "https://morpheuslabs.io/",
 		description:
