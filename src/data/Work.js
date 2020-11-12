@@ -27,7 +27,7 @@ export default [
 	{
 		id: 1,
 		name: "Elevux",
-		designation: "WordPress Developer",
+		designation: "Web Developer",
 		dated: "Jan 2015 - June 2017",
 		logo: elevux,
 		companyLink: "https://dvip.org/",
