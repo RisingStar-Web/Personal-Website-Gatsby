@@ -43,7 +43,7 @@ const BoxIcon = styled.a`
   border-radius: inherit;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  background-color: rgb(61 109 210);
+  background-color: #5397f9;
   img {
     width: 35%;
     margin-right: 5%;
