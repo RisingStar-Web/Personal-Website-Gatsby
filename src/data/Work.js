@@ -8,7 +8,7 @@ export default [
 		id: 4,
 		name: "Solidefi",
 		designation: "Blockchain Developer",
-		dated: "May 2020 - Feb 2021",
+		dated: "March 2020 - Feb 2021",
 		logo: solidefi,
 		companyLink: "https://www.solidefi.co/",
 		description:
