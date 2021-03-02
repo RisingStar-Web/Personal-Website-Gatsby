@@ -21,16 +21,17 @@ const IndexPage = () => {
         <UserDescription>
           <div>
             <p>
-              Hello there, welcome to my portfolio. I am a senior web developer
-              who is comfortable with architecting and implementing scalable and
-              maintainable web app/services with the TDD/BDD approach..
+              Hello there, welcome to my portfolio.
+              <br />
+              This is Roy and I enjoy solving problems, troubleshooting issues, and coming up with solutions in a timely manner. I thrive in team settings, and I think my skill in effectively communicating with others is what drives my ability to solve a variety of problems.
               <br />
               <br />
-              Specifically, I have long been focusing on responsive web
-              application development with
-              React.js/Redux/Styled-Component/Material-UI, Angular 2+,
-              Vue.js/Vuex/Vuetify, Node.js, Laravel, WordPress, Webflow, PHP,
-              ES6/7, TypesScript, HTML5, CSS3, and etc.
+              Here are my best quotes for development.
+              <br />
+              <br />
+              "First solve the problem, then write the code"
+              <br />
+              "I love what I do and I do what my clients love & work with great clients all over the world to create thoughtful and purposeful websites." 
               <br />
               <br />
               During my career, I have participated in a wide range of web

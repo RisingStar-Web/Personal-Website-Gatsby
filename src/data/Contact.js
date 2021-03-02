@@ -5,7 +5,7 @@ import telephone from '../assets/images/telephone.png'
 export default [
     {
         id: 1,
-        title: "webdevstar14@gmail.com",
+        title: "roychongdev14@gmail.com",
         icon: gmail,
         linkTo: false,
     },
@@ -17,7 +17,7 @@ export default [
     },
     {
         id: 3,
-        title: "+1 (825) 414-0019",
+        title: "+1 (825) 800-0497",
         icon: telephone,
         linkTo: false,
     },
