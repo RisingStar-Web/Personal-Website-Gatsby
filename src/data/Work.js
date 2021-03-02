@@ -7,7 +7,7 @@ export default [
 	{
 		id: 4,
 		name: "Solidefi",
-		designation: "Blockchain Developer",
+		designation: "Blockchain & Web Developer",
 		dated: "March 2020 - Feb 2021",
 		logo: solidefi,
 		companyLink: "https://www.solidefi.co/",
@@ -17,7 +17,7 @@ export default [
 	{
 		id: 3,
 		name: "Morpheus Labs, Inc",
-		designation: "Web Developer",
+		designation: "Full Stack Engineer",
 		dated: "July 2019 - Oct 2020",
 		logo: morpheus,
 		companyLink: "https://morpheuslabs.io/",
